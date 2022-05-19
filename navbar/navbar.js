@@ -12,9 +12,7 @@ export default function navbar() {
           <ul className="navbar-list d-flex">
             <li className="list-item-d-1 dropdown-1">
               <span>
-                <a href="#discover" className="curr">
-                  DESCOPERĂ
-                </a>
+                <a href="#discover">DESCOPERĂ</a>
               </span>
               <div className="dropdown-content-1">
                 <li className="sublist-item-1">
@@ -29,7 +27,7 @@ export default function navbar() {
               </div>
             </li>
             <li className="list-item-d-1 dropdown-1">
-              <span> CREEAZĂ </span>
+              <span className="curr"> CREEAZĂ </span>
               <div className="dropdown-content-1">
                 <li className="sublist-item-1">PLAN DE STUDIU</li>
                 <li className="sublist-item-1">TIMER/REMINDER</li>
@@ -62,7 +60,7 @@ export default function navbar() {
       </div>
       <ul className="dropdown-list w-100 m-0 p-0" id="dropdown-el">
         <li className="list-item-d-2 dropdown-2 text-center">
-          <span className="mx-auto curr"> DESCOPERĂ </span>
+          <span className="mx-auto"> DESCOPERĂ </span>
           <div className="dropdown-content-2 mx-auto">
             <li className="sublist-item-2">POMODORO</li>
             <li className="sublist-item-2">CALCULATOR MEDIE</li>
@@ -70,7 +68,7 @@ export default function navbar() {
           </div>
         </li>
         <li className="list-item-d-2 dropdown-2 text-center">
-          <span className="mx-auto"> CREEAZĂ </span>
+          <span className="mx-auto curr"> CREEAZĂ </span>
           <div className="dropdown-content-2 mx-auto">
             <li className="sublist-item-2">PLAN DE STUDIU</li>
             <li className="sublist-item-2">TIMER/REMINDER</li>

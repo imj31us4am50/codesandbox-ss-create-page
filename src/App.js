@@ -5,6 +5,9 @@ import bootstrap from "bootstrap"; // eslint-disable-line no-unused-vars
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "/navbar/navbar.js";
 import Notifications from "/notifications/notifications.js";
+import TitleDesc from "/maincomponents/titledesc.js";
+import FlexComponents from "/maincomponents/flexcomp.js";
+import MainC from "/maincomponents/maincontent.js";
 
 export default function App() {
   return (
@@ -15,6 +18,9 @@ export default function App() {
       </div>
       <NavBar />
       <Notifications />
+      <TitleDesc />
+      <FlexComponents />
+      <MainC />
     </div>
   );
 }

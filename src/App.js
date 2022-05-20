@@ -8,6 +8,7 @@ import Notifications from "/notifications/notifications.js";
 import TitleDesc from "/maincomponents/titledesc.js";
 import FlexComponents from "/maincomponents/flexcomp.js";
 import MainC from "/maincomponents/maincontent.js";
+import Footer from "/footer/footer.js";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <TitleDesc />
       <FlexComponents />
       <MainC />
+      <Footer />
     </div>
   );
 }
